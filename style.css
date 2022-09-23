@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    background-color: rgba(18, 17, 17, 0.756);
+    padding: 10px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+.counterTimer{
+    display: flex;
+}
+.counterTimer p{
+    padding: 2rem;
+}
+
+.container p span{
+    display: flex;
+    font-size: 3rem;
+}
